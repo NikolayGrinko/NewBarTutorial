@@ -15,6 +15,9 @@ class SecondViewController: UIViewController {
         self.view.backgroundColor = .systemPurple
         self.navigationItem.title = "Second Controller"
         
+        // Скрывает стрелку назад
+        self.navigationItem.setHidesBackButton(true, animated: true)
+        
         self.navigationController?.navigationBar.prefersLargeTitles = true
         
         //  self.navigationItem.largeTitleDisplayMode = .never
